@@ -50,41 +50,6 @@ table {
 =========Custom CSS ===========================
 */
 
-body {
-        font-family: Avenir;
-}
-
-nav {
-    height: 50px;
-    background-color: white;
-    font-family: Avenir;
-    position: fixed;
-    width: 100%;
-    -moz-box-shadow: 0 1px 5px #b0aead;
-    -webkit-box-shadow: 0 1px 5px #b0aead;
-    box-shadow: 0 1px 5px #b0aead;
-}
-
-nav a {
-        color: #B0AEAD;
-        font-size: 12px;
-        text-decoration: none;
-        padding: 0 5px;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
-
-nav ul {
-    float: right;
-    margin-top: 14px;
-}
-
-nav ul li {
-    display: inline;
-}
-
 .main-background-image {
     background: url(../img/Boston.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -96,20 +61,10 @@ nav ul li {
     height: 70%;
 }
 
-.brand {
-    font-size: 16px;
-    display: inline-block;
-    margin-top: 14px;
-}
-
-.brand:hover {
-    text-decoration: none;
-}
-
 hgroup {
     text-align: center;
     color: white;
-    font-family: Avenir;
+    font-family: "proxima-nova",sans-serif;
 }
 
 header {
@@ -118,7 +73,6 @@ header {
 
 header h2 {
     font-size: 48px;
-    font-family: 'Lato', sans-serif;
     font-weight: 100;
 }
 
@@ -133,175 +87,3 @@ h3 {
     color: white;
     text-align: center
 }
-
-
-.container {
-    width: 960px;
-    margin: 0 auto;
-}
-
-.register {
-    background-color: #C000E1;
-    width:200px;
-    font-size: 18px;
-    padding: 20px 10px;
-    text-align:center;
-    color: white;
-    display: block;
-    text-decoration: none;
-    border: none;
-    margin: 150px auto 30px;
-    cursor:pointer;
-        -webkit-transition: 0.06s ease-in-out;
-    -moz-transition: 0.06s ease-in-out;
-    -o-transition: 0.06s ease-in-out;
-    transition: 0.06s ease-in-out;
-}
-
-.register:hover {
-    background-color: #8a3599;
-}
-
-#footer-register {
-    margin: 0 auto;
-    background: #fe8900;
-}
-
-#footer-register:hover {
-    background: #d18023;
-}
-
-
-.featured-speakers {
-    background: url('../img/footer-bg.jpg');
-    overflow: hidden;
-}
-
-#our-speakers {
-    text-align: center;
-    display: block;
-    padding-bottom: 60px;
-        color: #4A4A4A;
-    text-shadow: 0 1px 0 rgba(255,255,255, 0.5);
-}
-
-
-.featured-speakers img {
-    border-radius: 4px;
-    height: 200px;
-    border: 6px solid #116385;
-    box-shadow: 0 1px 0 rgba(255,255,255, 0.5);
-}
-
-ul.speaker {
-    float: left;
-    width: 33.33%;
-    padding: 80px 0 170px;
-}
-
-.name {
-    font-size: 26px;
-    padding: 10px 0;
-    color: #4A4A4A;
-    text-shadow: 0 1px 0 rgba(255,255,255, 0.5);
-}
-
-.title {
-    font-style: italic;
-    color: #4A4A4A;
-    text-shadow: 0 1px 0 rgba(255,255,255, 0.5);
-}
-
-
-.featured-speakers h2 {
-    font-size: 30px;
-    text-align: center;
-    padding: 15px 0;
-    font-family: 'Lato', sans-serif;
-    font-weight: 100;
-    color: #4A4A4A;
-    text-shadow: 0 1px 0 rgba(255,255,255, 0.5);
-}
-
-.sponsors {
-    background-color: #66ADCA;
-    overflow: hidden;
-}
-
-.sponsors li {
-    float: left;
-    width: 33.33%;
-    padding: 100px 0 80px;
-    text-align: center;
-    display: block;  
-}
-
-#see-all {
-    text-align: center;
-    display: block;
-    position: relative;
-    bottom: 40px;
-    color: #116385;
-    text-shadow: 0 1px 0 rgba(255,255,255, 0.3);
-}
-
-a.tank-logo {
-    background: url('../img/logos.png') no-repeat -39px -242px;
-    width: 300px;
-    height: 98px;
-    text-indent: -9999px;
-    display: inline-block;
-}
-
-a.fresh-logo {
-    background: url('../img/logos.png') no-repeat -39px -20px;
-    width: 300px;
-    height: 37px;
-    text-indent: -9999px;
-    display: inline-block;
-    margin-top: 40px;
-}
-
-a.eight-logo {
-    background: url('../img/logos.png') no-repeat -134px -92px;
-    width: 110px;
-    height: 123px;
-    text-indent: -9999px;
-    display: inline-block;
-}
-
-footer {
-    background: url('../img/footer-bg.jpg');
-    padding: 80px 0;
-}
-
-footer ul {
-    width: 80%;
-    margin: 0 auto;
-    text-align: center;
-    padding: 100px 0 0;
-}
-
-footer li {
-    display: inline;
-}
-
-footer a {
-        text-decoration: none;
-        padding: 0 5px;
-        color: #4A4A4A;
-        text-shadow: 0 1px 0 rgba(255,255,255, 0.5);
-}
-
-footer h3 {
-    margin-bottom: 20px;
-            color: #4A4A4A;
-        text-shadow: 0 1px 0 rgba(255,255,255, 0.5);
-}
-
-footer a:hover {
-    color: #66ADCA;
-}
-
-
-
